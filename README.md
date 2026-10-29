@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Product-Merchandising" alt="GitHub issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Product-Merchandising" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🛒 **A curated directory of top-tier SaaS solutions, searchandising platforms, visual sorting software, and open-source merchandising engines.**  
@@ -23,6 +24,8 @@
 - [☁️ SaaS & Commercial Hosted Platforms](#️-saas--commercial-hosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🌟 Star History](#-star-history)
 - [⚖️ Disclaimer & Governance](#️-disclaimer--governance)
 
 ---
@@ -81,6 +84,21 @@ Contributions are warmly welcomed! To add or update an entry:
    - Include company scale/revenue, exact starting tier prices, explicit free limits/trial duration, and verified links.
    - For open-source tools, include the official repository link, tech stack, and official GitHub star badge.
 4. 🚀 **Submit a Pull Request** with a brief summary of why the tool is suitable for product merchandising.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using **Awesome Product Merchandising**! If this curated repository helped you discover searchandising engines, compare ecommerce platforms, or implement category optimization in your business:
+
+- ⭐ **Star this repository** on GitHub to keep it visible and help others find it!
+- 🍴 **Fork and share** it with your fellow merchandisers, developers, and ecommerce peers.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation, research, and maintenance, please consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is deeply appreciated!
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Merchandising&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Product-Merchandising&type=date&legend=top-left)
 
 ---
 
