@@ -1,193 +1,97 @@
-# Awesome-Product-Merchandising
-
-## Top Product Merchandising Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Searchandising, Product Discovery & Self-Hosted Merchandising Engines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Product Merchandising**. These tools enable ecommerce teams to control product ranking, curate category pages, apply boost-and-bury rules, and personalize product discovery—turning the catalog into a strategic lever for conversion and margin.
-
-
-
-**Examples** include Shopify Combined Listings, Searchspring, Algolia, Klevu, Bloomreach, Attraqt, Nosto, Constructor.io, Syte, and Fast Simon (the category leaders).
-
-
-
-**Open-source emphasis**: Product Merchandising is a domain where open-source tooling is **emerging but still catching up to commercial searchandising suites**. The strongest active project is **ElasticSuite (Gally)**, an open-source searchandising engine for Magento, Shopware, Sylius, and OroCommerce with vector search, virtual categories, and boost-and-bury rules . **PragmaSearch** provides a local-first semantic search engine with synonym and ranking rule support, explicitly positioned as a low-cost Algolia alternative for small-to-mid catalogs . **Typesense** offers a fast, typo-tolerant search engine with vector search and merchandising-friendly features . However, no open-source project matches the full enterprise merchandising workflow (A/B testing, behavioral learning, automated campaigns) of Searchspring or Constructor.io out of the box.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Combined Listings](https://help.shopify.com/en/manual/products/combined-listings)**  
-
-  Shopify's native product merchandising feature for grouping related product variants (e.g., same shirt in different colors) into a single listing; improves discovery and simplifies catalog management for merchants.
-
-
-
-- **[Searchspring](https://searchspring.com/)**  
-
-  Generative Discovery platform with ML-powered merchandising: specific sorting, boost/bury logic, pinning, triggered and scheduled banners, A/B testing, and personalized recommendations; praised by merchandising-heavy teams for category control and testing capabilities .
-
-
-
-- **[Algolia](https://www.algolia.com/)**  
-
-  AI-powered search and discovery platform with instant search, typo tolerance, and vector search; strong for developer-led merchandising with custom ranking rules, synonyms, and InstantSearch UI libraries .
-
-
-
-- **[Klevu (Athos Commerce)](https://athoscommerce.com/klevu-search-platform/)**  
-
-  AI search and discovery platform now integrated into Athos Commerce; provides NLP-based relevance, visual merchandising with pinning/boosting/exclusions, real-time personalization, and recommendations.
-
-
-
-- **[Bloomreach](https://www.bloomreach.com/)**  
-
-  Discovery platform with modular feature packages for Search, Categories, and merchandising; AI tools include conversational agents, Premium Search with optimized ranking, and visual search .
-
-
-
-- **[Attraqt](https://www.attraqt.com/)**  
-
-  Product discovery and merchandising platform with AI-powered search, personalization, and merchandising controls for enterprise retailers.
-
-
-
-- **[Nosto](https://www.nosto.com/)**  
-
-  AI-powered search and discovery with semantic search, predictive autocomplete, personalized search, synonym optimization, faceting, A/B testing, and analytics.
-
-
-
-- **[Constructor.io](https://constructor.io/)**  
-
-  AI-powered search and product discovery with Searchandising Campaigns for applying merchandising strategies across multiple search, category, and facet contexts; features bulk rule application and facet group curation.
-
-
-
-- **[Syte](https://www.syte.ai/)**  
-
-  Visual AI product discovery platform with visual search, automated product tagging, and personalized recommendations.
-
-
-
-- **[Fast Simon](https://www.fastsimon.com/)**  
-
-  Visual product discovery platform with SDK for visual search, discovery image galleries, and related product recommendations.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[ElasticSuite (Gally)](https://github.com/elasticsuite/elasticsuite)**  
-
-  The most mature open-source **searchandising** platform available; designed for B2B and B2C ecommerce with advanced search, merchandising, and personalization . Gally, its searchandising engine, integrates natively with **Magento, Shopware, Sylius, and OroCommerce** to provide smart search with natural language understanding, typo tolerance, **virtual categories**, **boost-and-bury rules**, and merchandising analytics . Merchandisers can control product display order based on margins, stock, promotions, or seasonality without writing code . **The closest open-source equivalent to Searchspring or Klevu** for platform-native merchandising, though it requires one of the supported ecommerce platforms.
-
-
-
-- **[PragmaSearch](https://www.npmjs.com/package/pragmasearch)**  
-
-  Free, self-hosted semantic search engine positioned as an **open-source, local-first Algolia alternative** . Combines vector search and BM25 keyword search into hybrid ranking with **Reciprocal Rank Fusion**, typo tolerance, faceted filtering, and multilingual support. Includes **synonyms and ranking rules (boost/bury/pin)** and analytics (top/zero-result queries) with a bundled benchmark showing nDCG@10 of 0.941 for hybrid mode . **Explicitly designed for small-to-mid catalogs (≤ ~50k items)**; the author notes hosted platforms still win for million-SKU real-time catalogs with deep A/B testing . **The most accessible open-source merchandising engine** for teams migrating off hosted search.
-
-
-
-- **[Typesense](https://github.com/typesense/typesense)**  
-
-  Fast, typo-tolerant open-source search engine (GPL-3.0) written in C++; a single-binary alternative to Algolia . Serves a REST API with sub-50ms query latency, built-in typo correction, **faceting, filtering, sorting, synonym handling**, geo search, and **vector search (HNSW)** . While not a full merchandising suite, Typesense provides the search primitives (synonyms, ranking, filtering) needed to build merchandising workflows; it is drop-in for applications currently calling Algolia or Elasticsearch with no per-query fees .
-
-
-
-- **[Marqo](https://github.com/marqo-ai/marqo)**  
-
-  AI-native search and product discovery platform that is **self-hostable and maintained by the open-source community** . Leverages semantic search, LLMs, and behavioral learning for relevance, typo tolerance, multilingual queries, and **automated merchandising workflows** . Positioned for enterprise-scale retailers wanting self-hosted AI search with merchandising automation.
-
-
-
-- **[OmniSearch](https://pypi.org/project/syeedalireza-omnisearch/)**  
-
-  AI-powered ecommerce search engine using vector databases (Qdrant/Milvus) and HuggingFace Transformers (Sentence-BERT, CLIP) for **natural language and image search** . **Early-stage (v1.0.1, 28 weekly downloads) with technical implementation pending**—demonstrates the semantic/visual product discovery pattern but is not production-ready .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **searchrec** — Lightweight ecommerce recommendation engine based on item-item collaborative filtering; tracks click sessions and serves "you may also like" recommendations with an admin dashboard . **Recommendation-focused** rather than search merchandising, but useful for personalization.
-
-- **VisualMatch** — AI-powered visual product search engine using OpenAI CLIP; matches user-uploaded photos against a catalog with <100ms latency and includes an Instagram DM bot . **Visual search niche** rather than general merchandising.
-
-
-
-**Frameworks for building custom systems**: **ElasticSuite (Gally)** provides the most complete open-source searchandising platform for supported ecommerce platforms (Magento, Shopware, Sylius, OroCommerce) . **PragmaSearch** provides a lightweight, Algolia-like semantic search engine with merchandising rules for small-to-mid catalogs . **Typesense** provides the search infrastructure primitives (synonyms, faceting, vector search) for custom builds . **Marqo** offers self-hosted AI-native search with automated merchandising . No open-source project matches the full enterprise merchandising suite (A/B testing, behavioral learning at scale, automated campaigns) of Searchspring or Constructor.io.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Product merchandising platforms handling shopper behavior and catalog data must comply with applicable privacy regulations and ecommerce requirements; search analytics and personalization data require careful governance.
-
-- **Open-source product merchandising is emerging but not turnkey**—ElasticSuite provides strong platform-native searchandising for supported ecommerce systems , PragmaSearch offers a compelling Algolia alternative for smaller catalogs , and Typesense/Marqo provide search infrastructure. However, no open-source project matches the full enterprise merchandising workflow (A/B testing, behavioral learning at scale, automated campaigns) of Searchspring or Constructor.io. Organizations requiring advanced merchandising automation should evaluate commercial platforms.
-
-- Verify license terms for commercial use; ElasticSuite is open-source , PragmaSearch is an npm package , and Typesense uses GPL-3.0 .
-
-
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Product Merchandising Banner" width="100%" />
+</p>
+
+# 🛍️ Awesome Product Merchandising [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Product-Merchandising" alt="GitHub issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Product-Merchandising" alt="License"/></a>
+</p>
+
+> 🛒 **A curated directory of top-tier SaaS solutions, searchandising platforms, visual sorting software, and open-source merchandising engines.**  
+> Optimize e-commerce search, product discovery, category page sorting, boost-and-bury rules, and AI recommendations.
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Commercial Hosted Platforms](#️-saas--commercial-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Governance](#️-disclaimer--governance)
 
-**Made for ecommerce merchandisers, search managers, category managers, and product discovery engineers.**  
+---
 
-Let's make product merchandising more open, but with clear eyes about the enterprise automation gap that remains.
+## 📊 Sector Overview & Market Dynamics
+
+The global e-commerce search and product discovery software market is valued at approximately **$6.0 billion** and is projected to surpass **$13.3 billion** over the next decade at a CAGR of **~9.2%**. The industry exhibits a distinct dual structure: **highly fragmented** at the SMB and point-solution app layer (where hundreds of turnkey search plugins and specialized apps compete across Shopify, BigCommerce, and WooCommerce), yet **moderately concentrated** at the mid-market and enterprise tier where high-contract leaders (such as Bloomreach, Algolia, and Constructor) capture major retail catalog searchandising workflows.
+
+---
+
+## ☁️ SaaS & Commercial Hosted Platforms
+
+The table below lists leading commercial SaaS product merchandising and search platforms, **sorted descending by company size (valuation / estimated ARR / market capitalization)**:
+
+| Platform 🏷️ | Valuation / Scale 📈 | Starting Pricing 💳 | Free Tier Limits / Trial Period ⏱️ | Key Features & Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Combined Listings](https://help.shopify.com/en/manual/products/combined-listings)** | ~$213B - $224B Market Cap | **$2,300/mo** (Requires Shopify Plus subscription) | **3-day free trial** + $1/mo for first month (Standard Shopify trial; Plus requires demo) | Native multi-variant parent-child grouping on product pages; swatch navigation, custom SEO URLs per variant. |
+| **[Algolia](https://www.algolia.com/)** | $2.3B Valuation (~$100M+ ARR) | **$0.50 per 1,000 search requests/mo** (Grow plan with pay-as-you-go overages) | **Free forever plan (Build tier):** 10,000 search requests/mo, 50,000 records, 5,000 recommend requests, 1 GB storage cap. | Developer-first AI search API, instant search widgets, custom ranking rules, visual facets, and typo-tolerant search. |
+| **[Bloomreach](https://www.bloomreach.com/)** | $2.2B Valuation ($260M+ ARR) | **$5,000/mo** (~$60,000/yr starting baseline for Discovery package) | **No free tier; guided interactive demo available** (Proof of Concept arranged during enterprise sales evaluation). | Enterprise search, visual category merchandising, conversational AI (Loomi), 1:1 personalization, and marketing CDP integration. |
+| **[Constructor.io](https://constructor.io/)** | $550M Valuation (~$10M - $50M ARR) | **~$16,666/mo** (~$200,000/yr enterprise threshold based on procurement benchmarks) | **No free tier; zero-dollar Proof Schedule** (Revenue opportunity analysis & PoC for qualified enterprise prospects). | Revenue-optimizing searchandising algorithms, multi-context campaigns, dynamic facet grouping, and automated category curation. |
+| **[Nosto](https://www.nosto.com/)** | ~$33M Total Funding (~$15M - $30M ARR) | **~$500/mo** (Base fee scaling with store gross merchandise value and monthly traffic) | **Free to install on app stores; no self-serve free plan** (14-day assisted merchant Proof of Concept upon qualification). | Commerce Experience Platform (CXP), semantic site search, category visual merchandising, dynamic bundles, and A/B testing. |
+| **[Searchspring](https://searchspring.com/)** (Athos Commerce) | ~$15M - $25M ARR | **$599/mo** (Core starting tier scaling by catalog SKU count and monthly search sessions) | **No self-serve free plan; 14-day custom sandbox / guided demo** provided post-sales consultation. | Visual merchandising grid editor, scheduled boost & bury campaigns, automated out-of-stock deprioritization, and search analytics. |
+| **[Klevu](https://athoscommerce.com/klevu-search-platform/)** (Athos Commerce) | ~$15M - $20M ARR (~$18M Funding) | **$199/mo** (Entry Smart Search tier; $699+/mo for integrated Category Merchandising) | **14-day free trial** (Full feature access across Smart Search and Visual Merchandising modules). | NLP keyword search, visual PIN/boost controls, automated synonym suggestions, predictive autocomplete, and recommendations. |
+| **[Attraqt](https://www.attraqt.com/)** (Crownpeak) | ~$10M - $15M Historical ARR (Acquired) | **~$2,500/mo** (~$30,000/yr enterprise implementation tier) | **No free tier; demo environment available on request** through Crownpeak sales engineers. | Omnichannel product discovery, Fredhopper algorithmic merchandising, AI ranking controls, and curated category landing pages. |
+| **[Syte](https://www.syte.ai/)** | ~$71M Total Funding (Private) | **~$1,250/mo** (~$15,000/yr modular tier scaling with catalog size and camera search volume) | **No free plan; bespoke sandbox trial** available during enterprise discovery engagements. | Visual AI search, camera-based visual discovery, automated visual product tagging, and hyper-personalized visual recommendation carousels. |
+| **[Fast Simon](https://www.fastsimon.com/)** | Fast-growing private SaaS | **$39.99/mo** (Starter tier for up to 2,000 sessions/mo; scales up to $99-$499+/mo for Growth tiers) | **Free forever plan:** up to 100 sessions/mo (Includes basic AI search and filters; 14-day free trial on paid tiers). | Visual merchandising, smart predictive search, dynamic filters, automated collection curation, and cross-sell/upsell widgets. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The list below features open-source search engines, vector databases, and dedicated searchandising engines suitable for building self-hosted product merchandising workflows. **Sorted descending by GitHub stargazers count**:
+
+| Open-Source Project 🛠️ | GitHub Stars 🌟 | Primary Tech / Language 💻 | Description & Merchandising Capabilities 🔍 |
+| :--- | :--- | :--- | :--- |
+| **[Meilisearch](https://github.com/meilisearch/meilisearch)** | [![Meilisearch Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | Rust | Ultra-fast, typo-tolerant search engine featuring custom ranking rules (boost/bury attributes), exact-match priorities, faceted search, and hybrid vector search. |
+| **[Qdrant](https://github.com/qdrant/qdrant)** | [![Qdrant Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) | Rust | High-performance vector database offering payload-based filtering, ideal for semantic product discovery, similarity matching, and multimodal recommendation engines. |
+| **[Typesense](https://github.com/typesense/typesense)** | [![Typesense Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) | C++ | Blazing-fast, developer-friendly Algolia alternative with built-in curation rules (pinning, boosting, hiding products), synonym management, dynamic faceting, and vector search. |
+| **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![OpenSearch Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Java | Community-driven distributed search and analytics suite offering neural search, query reranking plugins, lexical/BM25 scoring, and enterprise catalog scale. |
+| **[Quickwit](https://github.com/quickwit-oss/quickwit)** | [![Quickwit Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers) | Rust | Cloud-native search engine designed for sub-second search directly on cloud storage (Amazon S3); ideal for massive, high-volume e-commerce catalogs. |
+| **[Vespa](https://github.com/vespa-engine/vespa)** | [![Vespa Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers) | C++ / Java | Advanced big-data search & machine-learned ranking platform supporting real-time ML inference, hybrid vector search, and deep personalization for large catalogs. |
+| **[Marqo](https://github.com/marqo-ai/marqo)** | [![Marqo Stars](https://img.shields.io/github/stars/marqo-ai/marqo?style=social&color=white)](https://github.com/marqo-ai/marqo/stargazers) | Python | End-to-end multimodal vector search engine providing automated embeddings, CLIP-powered visual search, and automated merchandising relevancy out of the box. |
+| **[Smile-SA ElasticSuite](https://github.com/Smile-SA/elasticsuite)** | [![ElasticSuite Stars](https://img.shields.io/github/stars/Smile-SA/elasticsuite?style=social&color=white)](https://github.com/Smile-SA/elasticsuite/stargazers) | PHP / Elasticsearch | The most complete platform-native searchandising engine for Magento 2 / Adobe Commerce; features visual category sorting, virtual categories, rule-based boost & bury, and facet controls. |
+| **[Elastic-Suite Gally](https://github.com/Elastic-Suite/gally)** | [![Gally Stars](https://img.shields.io/github/stars/Elastic-Suite/gally?style=social&color=white)](https://github.com/Elastic-Suite/gally/stargazers) | PHP / Symfony | Modern API-first, MACH-ready searchandising platform decoupling merchandising rule management from ecommerce frontends with GraphQL API support. |
+| **[PragmaSearch](https://github.com/wemaxie/PragmaSearch)** | [![PragmaSearch Stars](https://img.shields.io/github/stars/wemaxie/PragmaSearch?style=social&color=white)](https://github.com/wemaxie/PragmaSearch/stargazers) | TypeScript / Node.js | Local-first, self-hosted semantic search engine designed as a zero-cost Algolia alternative with Reciprocal Rank Fusion, BM25 + embeddings, and pin/boost ranking rules. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To add or update an entry:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your update (`git checkout -b feature/add-merchandising-tool`).
+3. 📝 **Edit `README.md`** following the standard tabular format:
+   - Include company scale/revenue, exact starting tier prices, explicit free limits/trial duration, and verified links.
+   - For open-source tools, include the official repository link, tech stack, and official GitHub star badge.
+4. 🚀 **Submit a Pull Request** with a brief summary of why the tool is suitable for product merchandising.
+
+---
+
+## ⚖️ Disclaimer & Governance
+
+- ℹ️ This repository is a **community-curated index** intended for informational and educational purposes. Inclusion does not constitute an endorsement.
+- 🔐 E-commerce merchandising engines process shopper clickstreams, catalog attributes, and customer interaction data; ensure all implementations adhere to applicable privacy standards (GDPR, CCPA) and security best practices.
+- 📜 Always verify software license terms prior to enterprise production deployment (e.g., GPL-3.0, Apache-2.0, MIT, or commercial SaaS agreements).
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ for e-commerce merchandisers, search engineers, catalog specialists, and product discovery teams.</sub>
+</p>
