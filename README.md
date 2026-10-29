@@ -6,7 +6,7 @@
 
 <p align="left">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Merchandising?style=social" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Product-Merchandising" alt="GitHub issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Merchandising/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Product-Merchandising" alt="License"/></a>
@@ -59,7 +59,7 @@ The table below lists leading commercial SaaS product merchandising and search p
 
 The list below features open-source search engines, vector databases, and dedicated searchandising engines suitable for building self-hosted product merchandising workflows. **Sorted descending by GitHub stargazers count**:
 
-| Open-Source Project 🛠️ | GitHub Stars 🌟 | Primary Tech / Language 💻 | Description & Merchandising Capabilities 🔍 |
+| Open-Source Project 🛠️ | GitHub_Stars 🌟 | Primary Tech / Language 💻 | Description & Merchandising Capabilities 🔍 |
 | :--- | :--- | :--- | :--- |
 | **[Meilisearch](https://github.com/meilisearch/meilisearch)** | [![Meilisearch Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | Rust | Ultra-fast, typo-tolerant search engine featuring custom ranking rules (boost/bury attributes), exact-match priorities, faceted search, and hybrid vector search. |
 | **[Qdrant](https://github.com/qdrant/qdrant)** | [![Qdrant Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) | Rust | High-performance vector database offering payload-based filtering, ideal for semantic product discovery, similarity matching, and multimodal recommendation engines. |
@@ -82,7 +82,7 @@ Contributions are warmly welcomed! To add or update an entry:
 2. 🌿 **Create a branch** for your update (`git checkout -b feature/add-merchandising-tool`).
 3. 📝 **Edit `README.md`** following the standard tabular format:
    - Include company scale/revenue, exact starting tier prices, explicit free limits/trial duration, and verified links.
-   - For open-source tools, include the official repository link, tech stack, and official GitHub star badge.
+   - For open-source tools, include the official repository link, tech stack, and official GitHub Stars_Badge.
 4. 🚀 **Submit a Pull Request** with a brief summary of why the tool is suitable for product merchandising.
 
 ---
